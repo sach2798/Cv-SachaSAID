@@ -1,0 +1,143 @@
+body {
+    font: bold 16px "Source Sans Pro", arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*Section 1*/
+.pannel-1 {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-size: cover;
+    background: url("assets/bg-cv.jpg");
+    background-position: 50%;
+    color: white;
+}
+
+h1{
+    font-size: 40px;
+    padding-left: 30%;
+}
+
+/*Section 2*/
+
+.pannel-2 {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    background-size: cover;
+}
+
+.pannel-2 p {
+    padding-top: 20px;
+    line-height: 30px;
+    color: grey;
+    opacity: 3;
+}
+
+h2 :first-child {
+    color: teal;
+}
+h2 :nth-child(3) {
+    color: teal;
+}
+h2 :nth-child(5) {
+    color: teal;
+}
+h2 :nth-child(7) {
+    color: teal;
+}
+h2 :nth-child(9) {
+    color: teal;
+}
+h2 :nth-child(11) {
+    color: teal;
+}
+
+.row {
+    padding-top: 100px;
+    margin-right: -.9375rem;
+    margin-left: -.9375rem;
+}
+
+.col-lg-offset-2 {
+    margin-left: 20.666667%;
+    margin-right: 20%;
+}
+/*Information*/
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bar-information-1 {
+    display: flex;
+    justify-content: space-around;
+}
+.bar-information-1 .row1{
+    display: flex;
+    align-items: center;
+} 
+.bar-information-1 .row2{
+    display: flex;
+    align-items: center;
+} 
+
+.row1 h3 {
+    padding-left: 14px;
+}
+.row2 h3 {
+    padding-left: 14px;
+}
+
+.bar-information-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bar-information-2 .row1{
+    display: flex;
+    align-items: center;
+} 
+
+.bar-information-2 .row2{
+    display: flex;
+    align-items: center;
+} 
+
+
+/*Competences*/
+
+.bar .bar-title {
+    border-radius: 3px;
+}
+
+.bar-title {
+    position: relative;
+    width: 100%;
+    color: #212121;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.bar {
+    width: 100%;
+    height: 3px;
+    background: #f2f2f2;
+}
+
+.bar-fill {
+    background-color: teal !important;
+    height: 3px;
+}
