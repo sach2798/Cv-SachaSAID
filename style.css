@@ -233,12 +233,6 @@ h1{
     background-size: cover;
 }
 
-.contact {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
 .contact img {
     width: 70px;
 }
@@ -246,3 +240,15 @@ h1{
 .contact h3 {
     color: rgba(3, 3, 56, 0.993);
 }
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact-logo {
+    transition: .5s;
+ }
+ 
+ .contact-logo:hover {
+     transform: scale(1.1) rotate(30deg) translateZ(0);
+ }
