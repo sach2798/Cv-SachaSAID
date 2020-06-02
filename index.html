@@ -4,26 +4,32 @@
   <meta charset="utf-8">
   <title>Sacha</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="aos.css">
   <link rel="shortcut icon" type="image/png" href="assets/S.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/b96c0bdec5.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 <body>
     <section class="pannel-1" style="height: 990px;">
-      <div class="presentation">
-        <h1>Bonjour, <br>
-          Je suis Sacha <br>
-          Développeur Web & IOS
-        </h1>
-        <p class="sub-presentation"> HTML / CSS / Swift / Ionic </p>
-      </div>
-      <div>
-        <img class="profil" src="assets/profil copie.png" alt="">
-      </div>
+        <div class="presentation">
+          <h1>Bonjour, <br>
+            Je suis Sacha <br>
+            Développeur Web & IOS
+          </h1>
+          <p class="sub-presentation"> HTML / CSS / Swift / Ionic </p>
+        </div>
+        <div>
+          <img class="profil" src="assets/profil copie.png" alt="">
+        </div>
       <div class="arrow-down"></div>
     </section>
-    <section id="section-2" class="pannel-2">
+    
+    <section data-aos="zoom-in-down" id="section-2" class="pannel-2">
       <div class="row">
         <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+          
         <h2>
           <span>P</span>
           <span>R</span>
@@ -40,9 +46,9 @@
         <p>Etudiant ambitieux, déterminé et rigoureux, actuellement en 2ème année à Epitech Paris,
           je suis à la recherche d'une alternance de 2 ans (contrat professionnel) en développement IOS à partir du mois de Septembre 2020.</p>
         </div>
-      </div>      
+      </div>
     </section>
-    <section id="section-3" class="pannel-3">
+    <section data-aos="zoom-in-down" id="section-3" class="pannel-3">
       <div class="row">
         <div class="col-xs-12 col-lg-8 col-lg-offset-2">
           <h2>
@@ -114,7 +120,7 @@
         
       </div>
     </section>
-    <section id= "section-4" class="pannel-4">
+    <section data-aos="zoom-in-down" id= "section-4" class="pannel-4">
       <div class="row">
         <div class="col-xs-12 col-lg-8 col-lg-offset-2">
           <h2>
@@ -180,7 +186,7 @@
       </div>
     </section>
 
-    <section id= "section-5" class="pannel-4">
+    <section data-aos="zoom-in-down" id= "section-5" class="pannel-4">
       <div class="row">
         <div class="col-xs-12 col-lg-8 col-lg-offset-2">
           <h2>
@@ -200,5 +206,12 @@
       </div>
       </div>
     </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="aos.js"></script>
+    <script type="text/javascript">
+      AOS.init({
+        duration: 1500,
+      });
+    </script>
 </body>
 </html>
