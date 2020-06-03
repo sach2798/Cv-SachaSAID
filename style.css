@@ -1,5 +1,5 @@
 body {
-    font: 16px 'Source Sans Pro', sans-serif;;
+    font: 16px bold 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,12 +9,13 @@ body {
 }
 
 body h2 {
-    background: linear-gradient(blue, grey);
+    background: linear-gradient(#2d83cd, grey);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 15px;
     
 }
+
 
 .arrow-down {
     width: 100%;
@@ -84,6 +85,10 @@ body h2 {
 h1{
     font-size: 40px;
 
+}
+
+.search {
+    color: #2d83cd;
 }
 
 /*Section 2*/
@@ -183,7 +188,7 @@ h1{
 
 .time-line a {
     text-decoration: none;
-    color: teal;
+    color: #2d83cd;
 }
 
 .time-line a:hover {
