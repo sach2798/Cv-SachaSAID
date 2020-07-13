@@ -16,6 +16,11 @@ body h2 {
     
 }
 
+p {
+    font-size: 18px;
+    font: 16px bold 'Source Sans Pro', sans-serif;
+}
+
 
 .arrow-down {
     width: 100%;
@@ -211,6 +216,7 @@ h1{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
+    font-size: 18px;
 }
 
 .time-line li h4 {
@@ -224,7 +230,7 @@ h1{
     background-color: rgba(3, 3, 56, 0.55);
     padding: 5px 0 5px 20px;
     color: white;
-    font-size: 15;
+    
 }
 
 .time-line .info::before {
