@@ -173,7 +173,7 @@ h1{
 
 .projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 10rem;
 }
@@ -183,12 +183,8 @@ h1{
     height: 100%;
 }
 
-.project-1 img:hover {
-    opacity: 0.5;
-}
 
 .project-1 {
-    width: 40%;
     margin-top: 40px;
 }
 
@@ -207,11 +203,8 @@ h1{
     font-family: avenir roman;
 }
 
-.project-2:hover {
-    opacity: 0.5;
-}
 
-.project-1 .project-2 {
+.project-1 .project-2 .project-3 {
    transition: .5s;
 }
 
@@ -223,9 +216,19 @@ h1{
     transform: scale(1.1) rotate(18deg) translateZ(0);
 }
 
+.project-3:hover {
+    transform: scale(1.1) rotate(18deg) translateZ(0);
+}
+
 .project-1 a img {
-    width: 443px;
-    height: 425px;
+    width: 250px;
+}
+
+.project-2 a img {
+    width: 250px;
+}
+.project-3 a img {
+    width: 250px;
 }
 
 /*Section 4*/
